@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff6a7f"/><stop offset=".55" stop-color="#e0233f"/><stop offset="1" stop-color="#8f0f25"/></linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><circle cx="50" cy="50" r="46"/></clipPath>
+  </defs>
+  <rect width="100" height="100" fill="#06251a"/>
+  <circle cx="50" cy="50" r="46" fill="url(#a)"/>
+  <ellipse cx="50" cy="26" rx="36" ry="21" fill="url(#b)" clip-path="url(#c)"/>
+  <circle cx="50" cy="50" r="44.5" fill="none" stroke="#fff" stroke-opacity=".8" stroke-width="2"/>
+  <path d="M19 72a38 38 0 0 0 62 0" fill="none" stroke="#43d98f" stroke-width="5" stroke-linecap="round"/>
+  <text x="50" y="60" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="38" fill="#fff">NS</text>
+</svg>

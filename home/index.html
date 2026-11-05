@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>N.S Vault</title>
+  <meta name="description" content="N.S Vault — a fast, festive hub for games, apps and learning tools, with a built-in web proxy.">
+  <meta name="theme-color" content="#06251a">
+  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="manifest" href="manifest.json">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="N.S Vault">
+  <meta property="og:description" content="N.S Vault — a fast, festive hub for games, apps and learning tools, with a built-in web proxy.">
+  <meta property="og:site_name" content="N.S Vault">
+  <link rel="stylesheet" href="ns.css">
+  <script src="ns.js" defer></script>
+</head>
+<body>
+  <main class="ns-page">
+    <section class="ns-hero">
+      <div data-mark></div>
+      <h1 class="ns-title">N.S Vault</h1>
+      <p class="ns-sub" id="ns-quote" aria-live="off">Fresh snow, fresh tabs.</p>
+      <div class="ns-clock" id="ns-clock"></div>
+
+      <form id="ns-form" class="ns-search glass" autocomplete="off" role="search">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>
+        <input id="ns-address" type="text" inputmode="url" placeholder="Search the web or enter a link" aria-label="Search the web or enter a link" spellcheck="false" autocapitalize="off">
+        <button class="btn" type="submit">Go</button>
+      </form>
+
+      <div class="chips" aria-label="Quick links">
+        <button class="chip" type="button" data-go="wikipedia.org">Wikipedia</button>
+        <button class="chip" type="button" data-go="youtube.com">YouTube</button>
+        <button class="chip" type="button" data-go="desmos.com/calculator">Desmos</button>
+        <button class="chip" type="button" data-go="khanacademy.org">Khan Academy</button>
+      </div>
+
+      <div class="feature-row">
+        <a class="feature glass sheen" href="g.html"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="11" rx="5.5"/><path d="M7.5 10.5v4M5.5 12.5h4"/><circle cx="15.5" cy="11.5" r=".9" fill="currentColor"/><circle cx="18" cy="13.7" r=".9" fill="currentColor"/></svg><b>Games</b><span id="ns-n-g">Play something</span></a>
+        <a class="feature glass sheen" href="a.html"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="2"/><rect x="13.5" y="3.5" width="7" height="7" rx="2"/><rect x="3.5" y="13.5" width="7" height="7" rx="2"/><rect x="13.5" y="13.5" width="7" height="7" rx="2"/></svg><b>Apps</b><span id="ns-n-a">Handy tools</span></a>
+        <a class="feature glass sheen" href="learning.html"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9 12 4l10 5-10 5z"/><path d="M6 11.5V16c0 1.4 2.7 3 6 3s6-1.6 6-3v-4.5"/><path d="M22 9v6"/></svg><b>Learning</b><span id="ns-n-l">Study helpers</span></a>
+      </div>
+    </section>
+  </main>
+  <noscript><p style="text-align:center;padding:24px">N.S Vault needs JavaScript to run.</p></noscript>
+</body>
+</html>

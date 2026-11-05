@@ -1,0 +1,27 @@
+[
+ {
+  "name": "Brainly",
+  "link": "https://brainly.com/app/ask",
+  "image": "https://lh3.googleusercontent.com/ZX-LIMGoP14MnT3cfLYL2BRh9FvojYipkkUgV1_t6qbGDecf0JH3dW_Ah4Trutc2KA=s180"
+ },
+ {
+  "name": "Desmos",
+  "link": "https://www.desmos.com/calculator",
+  "image": "https://preview.redd.it/8pubh285syd61.png?width=4096&format=png&auto=webp&s=6881b6aab2ba56d4c7e45b15201e181489330362"
+ },
+ {
+  "name": "Gauth Math",
+  "link": "https://www.gauthmath.com/",
+  "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/1f/4a/47/1f4a4746-97ca-1913-623a-09798d1b0967/source/1200x1200bb.png"
+ },
+ {
+  "name": "QuillBot",
+  "link": "https://quillbot.com/",
+  "image": "https://quillbot.com/favicon-144x144.png"
+ },
+ {
+  "name": "W3Schools",
+  "link": "https://www.w3schools.com/",
+  "image": "https://www.w3schools.com/apple-touch-icon.png"
+ }
+]

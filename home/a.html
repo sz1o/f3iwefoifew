@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>N.S Vault — Apps</title>
+  <meta name="description" content="Tools and services, one click away.">
+  <meta name="theme-color" content="#06251a">
+  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="manifest" href="manifest.json">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="N.S Vault — Apps">
+  <meta property="og:description" content="Tools and services, one click away.">
+  <meta property="og:site_name" content="N.S Vault">
+  <link rel="stylesheet" href="ns.css">
+  <script src="ns.js" defer></script>
+</head>
+<body>
+  <main class="ns-page">
+    <header class="list-head">
+      <div>
+        <h1 class="ns-title sm">Apps</h1>
+        <p class="ns-sub">Tools and services, one click away.</p>
+      </div>
+      <div class="list-tools">
+        <label class="ns-search glass">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>
+          <input id="ns-q" type="search" placeholder="Search apps" aria-label="Search apps" autocomplete="off" spellcheck="false">
+        </label>
+      </div>
+    </header>
+    <div class="list-chips" id="ns-chips" role="group" aria-label="Categories"></div>
+    <p class="list-count" id="ns-count" aria-live="polite"></p>
+    <section class="grid" id="ns-grid" data-list="apps.json" data-noun="apps"></section>
+  </main>
+  <noscript><p style="text-align:center;padding:24px">N.S Vault needs JavaScript to run.</p></noscript>
+</body>
+</html>
